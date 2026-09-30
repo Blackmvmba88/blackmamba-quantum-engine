@@ -1317,3 +1317,42 @@ In other words:
 **Structure → Dynamics → Tuning → Flow → Function**
 
 **Molecular Hardware + Molecular Score = Behavior**
+
+
+---
+
+# 39. MRM-003 — trans-Azobenzene Spin-State Baseline
+
+Rowan campaign status: **partial but scientifically usable**.
+
+Completed comparison:
+
+```text
+singlet  E = -572.605269 Ha
+triplet  E = -572.565212 Ha
+ΔE(S→T) ≈ 25.14 kcal/mol
+```
+
+At the current r2SCAN-3c//GFN2-xTB level, the singlet is lower in energy than the triplet.
+
+The requested quintet final single-point did not complete before the Rowan workflow stopped at the credit boundary, so no final quintet energy is reported.
+
+Full record:
+
+`experiments/MRM-003-trans-azobenzene-spin-states.md`
+
+Next scientific step:
+
+```text
+certified spin baseline
+        ↓
+vibrational modes
+        ↓
+torsion / rotation
+        ↓
+transition + selection rules
+        ↓
+frequency / polarization / phase
+        ↓
+functional coupling
+```
